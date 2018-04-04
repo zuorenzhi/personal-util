@@ -32,6 +32,7 @@ public class SpringAopTest {
     @Test
     public void getNum() {
         Long num = productService.getNum(10);
+        System.out.println("今天是个好日子，哈哈");
         log.info("【SpringAopTest-->getNum】 出参是 [num={}]",num);
     }
 }
