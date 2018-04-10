@@ -297,6 +297,12 @@ public class DateUtils {
 		return false;
 	}
 
+	/**两日期的day差值 3-1=2*/
+	public static long differenceDays(String timeStart, String timeEnd){
+		return ChronoUnit.DAYS.between(LocalDate.parse(timeStart), LocalDate.parse(timeEnd));
+	}
+
+
 	/**
 	 * 收集起始时间到结束时间之间所有的时间并以字符串集合方式返回(基于jdk1.8)
 	 * @param timeStart
@@ -337,9 +343,11 @@ public class DateUtils {
 
 		String timeStart = "2018-03-25";
         String timeEnd = "2018-04-05";
-//		String timeEnd = "2018-03-24";
+//		String timeEnd = "2018-03-29";
 
 		collectLocalDates(timeStart, timeEnd).forEach(System.out::println);
+		long l = differenceDays(timeStart, timeEnd);
+		System.out.println(l);
 	}
 
 }

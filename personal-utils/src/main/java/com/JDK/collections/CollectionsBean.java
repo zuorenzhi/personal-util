@@ -189,10 +189,8 @@ public class CollectionsBean {
 		list2.add(4);
 		list2.add(5);
 		list2.add(6);
-		List<Integer> list = new ArrayList<Integer>();
-		list.addAll(list1);
-		list.addAll(list2);
-		System.out.println(list);
+		list1.addAll(list2);
+		System.out.println(list1);
 	}
 	@Test
 	public void collectionsAddAll(){
