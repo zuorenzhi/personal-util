@@ -9,7 +9,7 @@ import java.util.List;
  * 
  * <p>Description: [svn的安装工具类:生成需要追加的配置文件代码]</p>
  * Created on 2017年4月16日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">左仁智</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">左仁智</a>
  * @version 1.0 
  * Copyright (c) 2017 北京柯莱特科技有限公司 交付部
  */

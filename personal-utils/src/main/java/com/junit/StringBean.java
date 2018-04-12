@@ -188,6 +188,10 @@ public class StringBean {
         log.info("【StringBean-->test】 size={},arr={}", split.length, Arrays.toString(split));
     }
 
+    public static void main(String[] args) throws InterruptedException {
+        Thread.sleep(10000000);
 
+
+    }
 }
 

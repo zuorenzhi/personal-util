@@ -8,7 +8,7 @@ import org.apache.commons.lang.StringUtils;
 /**
  * <p>Description: [反射工具类]<br>[操作对象属性getter-setter;调用对象setter-getter]</p>
  * Created on 2017年3月3日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">左仁智</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">左仁智</a>
  * @version 1.0 
  * Copyright (c) 2017 北京柯莱特科技有限公司 交付部
  */

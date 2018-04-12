@@ -13,7 +13,7 @@ import org.junit.Test;
 /**
  * <p>Description: [org.apache.commons.beanutils.BeanUtils 方法测试]</p>
  * Created on 2017年5月2日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a>
  * @version 1.0 
  * Copyright (c) 2017 camelot jiaofubu
  */
@@ -27,7 +27,7 @@ public class ABeanUtils {
 	@Test
 	public void describe() throws IllegalAccessException, InvocationTargetException, NoSuchMethodException{
 		//若无 对应属性的getter方法，那么获取的值仅有 -- class =...
-		//class=class com.camelot.mymaven.test.domain.Student
+		//class=class camelot.mymaven.test.domain.Student
 		Student student= new Student(2L, 22, "nice", "shanghai");
 		Map<String, String> paramMap = org.apache.commons.beanutils.BeanUtils.describe(student);
 		System.out.println(paramMap);

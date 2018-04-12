@@ -14,7 +14,7 @@ import java.util.Set;
 /**
  * <p>Description: [redis工具类]</p>
  * Created on 2016年4月27日
- * @author  <a href="mailto: chendong61@camelotchina.com">chendong</a>
+ * @author  <a href="mailto: chendong61@clt.com">chendong</a>
  * @version 1.0 
  * Copyright (c) 2016 北京柯莱特科技有限公司 交付部
  */
@@ -24,8 +24,7 @@ public class RedisService {
 	@Resource
 	private JedisPool jedisPool;
 
-	/**
-	 * <p>Discription:[判断存在]</p>
+	/*** <p>Discription:[判断存在]</p>
 	 * Created on 2016年4月27日
 	 * @param key
 	 * @return

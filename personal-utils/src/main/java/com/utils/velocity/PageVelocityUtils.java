@@ -16,12 +16,12 @@ import org.apache.velocity.runtime.directive.Directive;
 import org.apache.velocity.runtime.parser.node.Node;
 import org.apache.velocity.runtime.parser.node.SimpleNode;
 
-import com.camelot.bean.Pager;
+import camelot.bean.Pager;
 
 /**
  * <p>Description: [分页模板标签]</p>
  * Created on 2017年4月16日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">左仁智</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">左仁智</a>
  * @version 1.0 
  * Copyright (c) 2017 北京柯莱特科技有限公司 交付部
  */

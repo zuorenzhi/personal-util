@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * <p>Description: [java 传值和传引用]</p>
  * Created on 2017年4月27日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a>
  * @version 1.0 
  * Copyright (c) 2017 camelot jiaofubu
  */

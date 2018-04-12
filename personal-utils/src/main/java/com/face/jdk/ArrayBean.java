@@ -7,7 +7,7 @@ import java.util.List;
 /**
 * <p>Description: [ 数组]</p>
 * Created on 2017/5/16
-* @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a>
+* @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a>
 * @version 1.0
 * Copyright (c) 2017/5/1614:47 camelot jiaofubu
 */

@@ -7,7 +7,7 @@ import java.util.Random;
 /**
 * Description: [流程控制]<br/>
 * Created on 2017/5/16 15:05 <br/>
-* @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a><br/>
+* @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a><br/>
 * @version 1.0</br>
 * Copyright (c) camelot jiaofubu
 */

@@ -4,7 +4,7 @@ package com.gof.adapter;
  * @see http://www.cnblogs.com/chenpi/p/5188384.html
  * <p>Description: [class description]</p>
  * Created on 2017年5月4日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a>
  * @version 1.0 
  * Copyright (c) 2017 camelot jiaofubu
  */

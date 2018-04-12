@@ -10,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 /**
  * <p>Description: [一些常用的安全相关的操作方法]</p>
  * Created on 2016年8月31日
- * @author  <a href="mailto: liuxiangping86@camelotchina.com">刘香平</a>
+ * @author  <a href="mailto: liuxiangping86@clt.com">刘香平</a>
  * @version 1.0 
  * Copyright (c) 2016 北京柯莱特科技有限公司 交付部
  */

@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class JdbcUtils {
 	public static void main(String[] args) {
-		String driver = "com.mysql.jdbc.Driver";
+		String driver = "mysql.jdbc.Driver";
 		// localhost指本机，也可以用本地ip地址代替，3306为MySQL数据库的默认端口号，“user”为要连接的数据库名
 		String url = "jdbc:mysql://localhost:3306/user";
 		// 填入数据库的用户名跟密码

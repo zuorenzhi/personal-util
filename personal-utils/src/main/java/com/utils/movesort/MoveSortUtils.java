@@ -5,13 +5,13 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.camelot.dao.BaseDAO;
+import camelot.dao.BaseDAO;
 import com.utils.ReflectionUtils;
 
 /**
  * <p>Description: [排序工具类]</p>
  * Created on 2017年3月3日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">左仁智</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">左仁智</a>
  * @version 1.0 
  * Copyright (c) 2017 北京柯莱特科技有限公司 交付部
  */

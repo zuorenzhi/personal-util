@@ -20,7 +20,7 @@ import freemarker.template.TemplateScalarModel;
 /**
  * <p>Description: [示例标签]</p>
  * Created on 2016年11月21日
- * @author  <a href="mailto: xxx@camelotchina.com">左仁智</a>
+ * @author  <a href="mailto: xxx@clt.com">左仁智</a>
  * @version 1.0 
  * Copyright (c) 2016 北京柯莱特科技有限公司 交付部
  */

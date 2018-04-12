@@ -16,7 +16,7 @@ import redis.clients.jedis.ShardedJedisPool;
  * @see http://blog.csdn.net/u013467442/article/details/51405271
  * <p>Description: [jedis连接池]</p>
  * Created on 2017年5月5日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a>
  * @version 1.0 
  * Copyright (c) 2017 camelot jiaofubu
  */

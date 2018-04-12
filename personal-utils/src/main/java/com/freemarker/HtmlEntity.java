@@ -6,7 +6,7 @@ import lombok.Setter;
 /**
  * <p>Description: [静态化实体]</p>
  * Created on 2017年3月14日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a>
  * @version 1.0 
  * Copyright (c) 2017 北京柯莱特科技有限公司 交付部
  */

@@ -1,11 +1,11 @@
 package com.common.constants;
 
-import com.camelot.props.PropertyUtils;
+import camelot.props.PropertyUtils;
 
 /**
  * <p>Description: [存放简易常量的类]</p>
  * Created on 2017年3月8日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a>
  * @version 1.0 
  * Copyright (c) 2017 北京柯莱特科技有限公司 交付部
  */

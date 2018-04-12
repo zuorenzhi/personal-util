@@ -9,7 +9,7 @@ import java.io.IOException;
  * Description: 文件传输 <br/>
  * Created on: 2016/11/23 15:16 <br/>
  *
- * @author: <a href="mailto: liruifeng@camelotchina.com">李瑞丰</a><br/>
+ * @author: <a href="mailto: liruifeng@clt.com">李瑞丰</a><br/>
  * @version: 1.0 <br/>
  * Copyright (c) 2016年 北京柯莱特科技有限公司 交付部
  */
@@ -21,7 +21,7 @@ public class FileTransferUtils {
      *
      * @param: file 被传输的文件 transDir 传输路径
      * @return: transDir 传输路径
-     * @author: <a href="mailto: liruifeng@camelotchina.com">李瑞丰</a>
+     * @author: <a href="mailto: liruifeng@clt.com">李瑞丰</a>
      */
     public static String transferTo(MultipartFile file, String transDir) throws IOException {
         // 构建文件

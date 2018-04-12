@@ -1,4 +1,4 @@
-/*package com.camelot.maven.elastic;
+/*package camelot.maven.elastic;
 
 import java.io.IOException;
 
@@ -16,8 +16,8 @@ import org.elasticsearch.index.query.QueryStringQueryBuilder;
 import org.junit.Test;
 
 import com.alibaba.fastjson.JSON;
-import com.camelot.maven.domain.Student;
-import com.camelot.maven.elastic.factory.ElasticSearchFactory;
+import camelot.maven.domain.Student;
+import camelot.maven.elastic.factory.ElasticSearchFactory;
 
 public class TestDemo {
 

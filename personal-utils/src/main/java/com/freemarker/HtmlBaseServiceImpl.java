@@ -1,6 +1,6 @@
 package com.freemarker;
 
-import com.camelot.VerifyUtils;
+import camelot.VerifyUtils;
 import com.common.constants.HtmlConstants;
 import com.common.constants.ECMConstants;
 import freemarker.template.Configuration;

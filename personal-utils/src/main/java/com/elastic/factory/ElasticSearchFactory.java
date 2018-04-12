@@ -1,4 +1,4 @@
-/*package com.camelot.maven.elastic.factory;
+/*package camelot.maven.elastic.factory;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
@@ -22,7 +22,7 @@ import com.alibaba.fastjson.JSONObject;
  * @notice elasticsearch与solr系列的包共同引用时候会有jar冲突,需要处理[测试时候，保留其中一个,注释另外的maven依赖]
  * <p>Description: [工厂]</p>
  * Created on 2017年4月18日
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">左仁智</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">左仁智</a>
  * @version 1.0 
  * Copyright (c) 2017 北京柯莱特科技有限公司 交付部
  *//*

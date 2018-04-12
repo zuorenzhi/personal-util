@@ -7,7 +7,7 @@ import java.util.UUID;
 /**
  * <p>Description: [随机数生成器]</p>
  * Created on 2016年5月10日
- * @author  <a href="mailto: liuxiangping86@camelotchina.com">刘香平</a>
+ * @author  <a href="mailto: liuxiangping86@clt.com">刘香平</a>
  * @version 1.0 
  * Copyright (c) 2016 北京柯莱特科技有限公司 交付部
  */

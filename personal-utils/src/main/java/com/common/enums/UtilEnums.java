@@ -5,7 +5,7 @@ package com.common.enums;
  * 
  * <p>Description: [枚举实例]</p>
  * Created on 2016-8-22
- * @author  <a href="mailto: zuorenzhi@camelotchina.com">左仁智</a>
+ * @author  <a href="mailto: zuorenzhi@clt.com">左仁智</a>
  * @version 1.0 
  * Copyright (c) 2016 北京柯莱特科技有限公司 交付部
  */

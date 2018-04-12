@@ -16,7 +16,7 @@ import redis.clients.jedis.Pipeline;
 /**
  * <p>Description: [redis工具类]</p>
  * Created on 2016年4月27日
- * @author  <a href="mailto: chendong61@camelotchina.com">chendong</a>
+ * @author  <a href="mailto: chendong61@clt.com">chendong</a>
  * @version 1.0 
  * Copyright (c) 2016 北京柯莱特科技有限公司 交付部
  */

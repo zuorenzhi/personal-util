@@ -5,13 +5,13 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.camelot.dao.BaseDAO;
+import camelot.dao.BaseDAO;
 
 /**
  * 
  * <p>Description: [上下移动工具类]</p>
  * Created on 2016年12月9日
- * @author  <a href="mailto: hanshixiong@camelotchina.com">韩士雄</a>
+ * @author  <a href="mailto: hanshixiong@clt.com">韩士雄</a>
  * @version 1.0 
  * Copyright (c) 2016 北京柯莱特科技有限公司 交付部
  */
@@ -83,7 +83,7 @@ public class MoveUpAndDownUtils {
 	 * 
 	 * <p>Description: [list排序比较器，通过sort对list进行排序]</p>
 	 * Created on 2016年12月9日
-	 * @author  <a href="mailto: hanshixiong@camelotchina.com">韩士雄</a>
+	 * @author  <a href="mailto: hanshixiong@clt.com">韩士雄</a>
 	 * @version 1.0 
 	 * Copyright (c) 2016 北京柯莱特科技有限公司 交付部
 	 */

@@ -19,7 +19,7 @@ import java.util.Map.Entry;
 /**
 * Description: [柯莱特http工具类]<br/>
 * Created on 2017/6/7 20:42 <br/>
-* @author  <a href="mailto: zuorenzhi@camelotchina.com">zuorenzhi</a><br/>
+* @author  <a href="mailto: zuorenzhi@clt.com">zuorenzhi</a><br/>
 * @version 1.0</br>
 * Copyright (c) 2017年 北京柯莱特科技有限公司 交付部
 */
