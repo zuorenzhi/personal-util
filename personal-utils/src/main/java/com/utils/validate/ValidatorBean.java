@@ -20,7 +20,7 @@ import javax.validation.constraints.Size;
 @AllArgsConstructor
 @ToString
 @Slf4j
-public class ValidateBean implements  java.io.Serializable{
+public class ValidatorBean implements  java.io.Serializable{
 
 
     private static final long serialVersionUID = -7661342706577271417L;
@@ -55,8 +55,8 @@ public class ValidateBean implements  java.io.Serializable{
 
     public static void main(String[] args) {
 
-        ValidateBean beanVO = new ValidateBean("20", null, null, "");
-        String validate = ValidateUtil.validate(beanVO);
+        ValidatorBean beanVO = new ValidatorBean("20", null, null, "");
+        String validate = ValidatorUtil.validate(beanVO);
         log.info("1----{}-{}",validate, StringUtils.isBlank(validate));
 
 //        BeanVO beanVOO = new BeanVO("12345", "66", "777", "888");

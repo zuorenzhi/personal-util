@@ -5,8 +5,10 @@ import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
+@Slf4j
 public class BigDecimalBean {
 
 	@Test
@@ -127,34 +129,17 @@ public class BigDecimalBean {
 	 */
 	@Test
 	public void compareTo() {
-		System.out.println(Math.abs(-100));
-		System.out.println(Math.abs(-1200));
-		System.out.println(Math.abs(1200.23));
-
 		BigDecimal bigDecimal = new BigDecimal(1);
 		System.out.println(bigDecimal.compareTo(new BigDecimal(1.00)));
 		
 		System.out.println(BigDecimal.ZERO.compareTo(round(new BigDecimal(0.00))));
 	}
 
-	@Test
-	public void round() {
-		// up >= 0.5 down > 0.5
-		double num1 = 1.355, num2 = 1;
-		System.out.println(new BigDecimal(num1).divide(new BigDecimal(num2), 2));
-
-		double num3 = new BigDecimal(1.15).divide(new BigDecimal(1D), 1,BigDecimal.ROUND_HALF_EVEN).doubleValue();
-		System.out.println("num3=" + num3);
-		BigDecimal a = new BigDecimal(0.145);
-		System.out.println("EVEN=" + a.setScale(0, BigDecimal.ROUND_HALF_EVEN));
-		System.out.println("EVEN=" + a.setScale(1, BigDecimal.ROUND_HALF_EVEN));
-		System.out.println("EVEN=" + a.setScale(2, BigDecimal.ROUND_HALF_EVEN));
-		System.out.println("down=" + a.setScale(0, BigDecimal.ROUND_HALF_DOWN)	+ "/tup=" + a.setScale(0, BigDecimal.ROUND_HALF_UP));
-		System.out.println("down=" + a.setScale(2, BigDecimal.ROUND_HALF_DOWN)	+ "/tup=" + a.setScale(2, BigDecimal.ROUND_HALF_UP));
-
-		System.out.println(a.setScale(2, BigDecimal.ROUND_HALF_EVEN));
-	}
-
+	/**
+	 * <p>保留两位小数</p>
+	 * Created on: 2018-04-16 14:37
+	 * @author renzhi.zuo
+	 */
 	@Test
 	public void decimalFormat() {
 		java.text.DecimalFormat df = new java.text.DecimalFormat("#.00");
@@ -188,5 +173,17 @@ public class BigDecimalBean {
 				.add(new BigDecimal(Double.valueOf("3.33")));
 		bigDecimal =bigDecimal.setScale(2, BigDecimal.ROUND_HALF_UP);
 		System.out.println(bigDecimal.doubleValue());
+	}
+
+//		System.out.println(Math.abs(-100));
+//		System.out.println(Math.abs(-1200));
+//		System.out.println(Math.abs(1200.23));
+	public static void main(String[] args) {
+		int a =  5/8;
+		long b =  5/8;
+		double c =  5/8;
+		BigDecimal bigDecimal =  new BigDecimal(5).divide(new BigDecimal(8),BigDecimal.ROUND_HALF_DOWN);
+
+		log.info("【BigDecimalBean-->main】 入参是 [a={},b={},c={},d={},e={}]",a,b,c,bigDecimal.doubleValue());
 	}
 }

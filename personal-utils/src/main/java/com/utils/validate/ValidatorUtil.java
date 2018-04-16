@@ -12,7 +12,7 @@ import java.util.Set;
 * version : 1.0
 * Copyright (c) 2017 国美金控-美借
 */
-public class ValidateUtil {
+public class ValidatorUtil {
 
     /**
      * Discription: [验证某个bean的参数]

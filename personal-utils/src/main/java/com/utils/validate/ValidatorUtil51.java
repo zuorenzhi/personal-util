@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * 51的验证工具类
  */
-public class ValidateUtil51 {
+public class ValidatorUtil51 {
     public static Validator validator;
 
     static {
