@@ -1,4 +1,4 @@
-package com.solr;
+package com.search.solr;
 
 import java.io.IOException;
 import java.util.Collection;

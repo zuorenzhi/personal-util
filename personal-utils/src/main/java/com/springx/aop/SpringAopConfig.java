@@ -1,4 +1,4 @@
-package com.aop;
+package com.springx.aop;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  * Copyright (c) 2018 国美金控-美借
  */
 
-@ComponentScan(basePackages = "com.aop")
+@ComponentScan(basePackages = "com.springx.aop")
 @EnableAspectJAutoProxy
 public class SpringAopConfig {
 }

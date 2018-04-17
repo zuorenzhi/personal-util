@@ -17,14 +17,15 @@ public class BigdecimalUtils {
 
     public static void main(String[] args) {
 
-
-        System.out.println(1f/3);
-        System.out.println(1001D/16);
-        System.out.println(1/3D);
-        System.out.println(2/7D);
-        System.out.println(2f/7);
         System.out.println(retainTwoPoint(0.3333333333333333D));
         System.out.println(retainTwoPoint(0.2857142857142857));
+
+        System.out.println(Double.valueOf(12345L));
+        System.out.println(retainTwoPoint(Double.valueOf(12345L)));
+
+        double rr = 1D/3;
+        System.out.println(1/3);
+        System.out.println(rr);
 
 
     }

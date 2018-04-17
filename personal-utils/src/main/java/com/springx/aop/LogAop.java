@@ -1,4 +1,4 @@
-package com.aop;
+package com.springx.aop;
 
 /**
  * Description : [类描述]
@@ -29,16 +29,16 @@ import org.springframework.stereotype.Component;
 public class LogAop {
 
     //定义切点 方便复用
-    @Pointcut("execution(* com.aop.*.*(..))")
+    @Pointcut("execution(* com.springx.aop.*.*(..))")
     public void logAll() {
     }
 
     //定义切点 方便复用
-    @Pointcut("execution(* com.aop.ProductServiceImpl.add(..))")
+    @Pointcut("execution(* com.springx.aop.ProductServiceImpl.add(..))")
     public void log() {
     }
 
-    @Pointcut("execution(* com.aop.ProductServiceImpl.getNum(..))")
+    @Pointcut("execution(* com.springx.aop.ProductServiceImpl.getNum(..))")
     public void getNum() {
     }
 
