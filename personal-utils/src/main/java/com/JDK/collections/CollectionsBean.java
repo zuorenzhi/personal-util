@@ -268,4 +268,5 @@ public class CollectionsBean {
 		System.out.println(list);
 	}
 
+
 }

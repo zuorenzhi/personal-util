@@ -27,6 +27,8 @@ public class NumberUtils {
 		System.out.println(sizeOfInt(1000));
 		System.out.println(sizeOfInt(100));
 		System.out.println(sizeOfInt(12345));
+
+		System.out.println(Double.parseDouble("2.3654"));
 	}
 
 
