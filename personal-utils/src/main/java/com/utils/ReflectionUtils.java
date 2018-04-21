@@ -1,13 +1,13 @@
 package com.utils;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.*;
-
 import com.alibaba.fastjson.JSON;
 import com.dto.DailyNumDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.*;
 
 /**
  * <p>Description: [反射工具类]<br>[操作对象属性getter-setter;调用对象setter-getter]</p>
@@ -117,7 +117,6 @@ public class ReflectionUtils {
     /**
      * <p>字符串排序</p>
      * Created on: 2018-04-18 16:51
-     *
      * @param
      * @return
      * @author renzhi.zuo
@@ -135,7 +134,7 @@ public class ReflectionUtils {
     }
 
 
-    public static void main(String[] args) {
+    public void test(){
         List<DailyNumDTO> list = new ArrayList<>();
         list.add(DailyNumDTO.getInstance("2018-04-18", 22));
         list.add(DailyNumDTO.getInstance("2017-04-16", 22));
@@ -144,28 +143,34 @@ public class ReflectionUtils {
         list.add(DailyNumDTO.getInstance("2018-03-21", 22));
         list.add(DailyNumDTO.getInstance("2018-04-17", 22));
 
-//		log.info("【ReflectionUtils-->main】 入参是 [list={}]", JSON.toJSONString(list));
-//		sortListByFieldName(list,"day");
-//		log.info("【ReflectionUtils-->main】 入参是 [list={}]", JSON.toJSONString(list));
+        log.info("【ReflectionUtils-->main】 入参是 [list={}]", JSON.toJSONString(list));
+        sortListByFieldName(list,"day");
+        log.info("【ReflectionUtils-->main】 入参是 [list={}]", JSON.toJSONString(list));
 
         //todo treeMap 自动按key 排序:前提是key自动满足可排序条件
-        TreeMap<String, Integer> treeMap = new TreeMap<>();
-        for (DailyNumDTO dailyNumDTO : list) {
-            treeMap.put(dailyNumDTO.getDay(), dailyNumDTO.getNum());
-        }
-        for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
-            System.out.println(entry.getKey() + "=" + entry.getValue());
-        }
-        System.out.println("====================");
-        Iterator<Map.Entry<String, Integer>> iterator = treeMap.entrySet().iterator();
-        while (iterator.hasNext()) {
-            Map.Entry<String, Integer> entry = iterator.next();
-            System.out.println(entry.getKey() + "=" + entry.getValue());
-        }
+//        TreeMap<String, Integer> treeMap = new TreeMap<>();
+//        for (DailyNumDTO dailyNumDTO : list) {
+//            treeMap.put(dailyNumDTO.getDay(), dailyNumDTO.getNum());
+//        }
+//        for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
+//            System.out.println(entry.getKey() + "=" + entry.getValue());
+//        }
+//        System.out.println("====================");
+//        Iterator<Map.Entry<String, Integer>> iterator = treeMap.entrySet().iterator();
+//        while (iterator.hasNext()) {
+//            Map.Entry<String, Integer> entry = iterator.next();
+//            System.out.println(entry.getKey() + "=" + entry.getValue());
+//        }
 
 //		System.out.println("2018-04-18".compareTo("2018-04-18"));
 //		System.out.println("2018-04-18".compareTo("2018-04-19"));
 //		System.out.println("2018-04-18".compareTo("2018-04-17"));
+
+    }
+
+    public static void main(String[] args) {
+        Double d = 5*3600D;
+
     }
 
 }

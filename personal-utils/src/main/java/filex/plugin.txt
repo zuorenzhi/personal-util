@@ -1,0 +1,10 @@
+
+
+1.mybatis
+2.lombok
+3.alibaba java coding guidelines
+4.A8translate
+5.
+
+
+other:https://blog.csdn.net/KingBoyWorld/article/details/76084597

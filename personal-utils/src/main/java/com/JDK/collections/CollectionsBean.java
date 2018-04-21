@@ -2,6 +2,7 @@ package com.JDK.collections;
 
 import java.util.*;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
 
 import com.domain.Person;
 import lombok.extern.slf4j.Slf4j;
@@ -267,6 +268,42 @@ public class CollectionsBean {
 		createArrayList(list,4,5);
 		System.out.println(list);
 	}
+
+	/**
+	 * <p>list --> stream --> 处理完后再转回 list </p>
+	 * Created on: 2018-04-19 21:33
+	 * @author renzhi.zuo
+	 */
+	@Test
+	public void streamList() {
+		List<Integer> list = new ArrayList<>();
+		Collections.addAll(list,1,2,3,0,4,0,9,0);
+		List<Integer> collect = list.stream()
+				//todo 满足过滤条件的保留
+				.filter(t -> t != 0)
+				//todo 处理完后直接由stream流转回list
+				.collect(Collectors.toList());
+		System.out.println(collect);
+	}
+	@Test
+	public void streamList2() {
+		List<Integer> list = new ArrayList<>();
+		list.forEach(t->{
+			t.intValue();
+		});
+
+		List<Integer> newList = new ArrayList<>();
+		Collections.addAll(list,1,2,3,0,4,0,9,0);
+		list.stream()
+				//todo 满足过滤条件的保留
+				.filter(t -> t != 0)
+				.collect(Collectors.toList())
+				.forEach(t->{
+					Collections.addAll(newList,t);
+				});
+		System.out.println(newList);
+	}
+
 
 
 }
